@@ -5,14 +5,13 @@
 
 
 def main():
-    Length = 6
-    Width = 5
-    print("The length of rectangle is 6 cm and width is 5 cm.")
+    Length = int(input("Enter length of the rectangle (cm): "))
+    Width = int(input("Enter width of the rectangle (cm): "))
     print(
         "So the area will be A = length * width = 6cm * 5cm = {}".format(Length * Width)
     )
     print(
-        "The Perimiter will be P = 2length + 2width = 2*6cm + 2*5cm = {}".format(
+        "The Perimiter will be P = 2*length + 2*width = 2*6cm + 2*5cm = {}".format(
             2 * Length + 2 * Width
         )
     )
